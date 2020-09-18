@@ -1,6 +1,6 @@
 package app
 
-import "github.com/weesvc/weesvc-gorilla/model"
+import "github.com/weesvc/weesvc-gorilla/src/model"
 
 // GetPlaces returns available places.
 func (ctx *Context) GetPlaces() ([]*model.Place, error) {

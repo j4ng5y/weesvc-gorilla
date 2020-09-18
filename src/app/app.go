@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/sirupsen/logrus"
 
-	"github.com/weesvc/weesvc-gorilla/db"
+	"github.com/weesvc/weesvc-gorilla/src/db"
 )
 
 // App defines the main application state and behaviors.
