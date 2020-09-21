@@ -3,7 +3,6 @@ extern crate diesel;
 extern crate dotenv;
 
 mod models;
-mod schema;
 
 use diesel::prelude::*;
 use diesel::sqlite::SqliteConnection;

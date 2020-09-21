@@ -4,32 +4,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="083e2a38-8b6e-4e86-a85d-afdcd9d1fbb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/src/models.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api_test.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/place.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/context.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/place.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/migrate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/root.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/serve.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmd/version.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/db.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/place.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/env/version.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/0001_create_places.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/migrations/migrate.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/place.go" beforeDir="false" />
-    </list>
+    <list default="true" id="083e2a38-8b6e-4e86-a85d-afdcd9d1fbb1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
