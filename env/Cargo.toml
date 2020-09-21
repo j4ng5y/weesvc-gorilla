@@ -1,0 +1,6 @@
+[package]
+name = "env"
+version = "0.1.0"
+authors = ["Jordan Gregory <gregory.jordan.m@gmail.com>"]
+edition = "2018"
+publish = false

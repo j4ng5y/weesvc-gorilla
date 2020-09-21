@@ -1,5 +1,5 @@
-# WeeSVC Gorilla
-Implementation of the WeeSVC application using [Go](https://golang.org/) and the [Gorilla Mux](https://www.gorillatoolkit.org/pkg/mux) 
+# WeeSVC Rocket
+Implementation of the WeeSVC application using [Rust](https://rust-lang.org/) and the [Gorilla Mux](https://www.gorillatoolkit.org/pkg/mux) 
 web toolkit.
 
 ## Ingredients
@@ -17,30 +17,23 @@ The following external libraries were *directly* utilized in this project.
 | UUID        | https://github.com/google/uuid         | Implementation for generation of universally unique identifiers (UUIDs) |
 
 ## Build
-Builds are performed using the `Makefile` provided in the project root.  
+Builds are performed using the default Rust tooling, e.g. - Cargo.  
 
 #### CLI
-In order to build the CLI, you will need to have Go (1.13+) installed on your system.
+In order to build the CLI, you will need to have Rust and Cargo (2018 edition) installed on your system.
 
-The default target for the `Makefile` will perform several tasks: 
-* organize imports using `goimports`
-* format code using `gofmt`
-* perform linting using `golint`
-* vet code for errors using `go vet`
-* compile binary for the current platform
-
-:point_up: NOTE: To initially build the project, you may need to run the `make setup` command to install the tools utilized for builds.
+The default target for Cargo will compile binary for the current platform.
 
 Once built, you can **migrate** the database scripts and run the application:
 ```shell script
 $ bin/weesvc migrate; bin/weesvc serve
 ```
 #### Docker
-For those who do not have Go available, [Docker](https://hub.docker.com/) is an option to build the application and run 
-the application within a container.  Using the `make build-docker` command will build the application within a Linux
+For those who do not have Rust/Cargo available, [Docker](https://hub.docker.com/) is an option to build the application and run 
+the application within a container.  Using the `docker build .` command will build the application within a Linux
 container, then copy the resulting binary into a slim docker image to utilize for execution.
 
-Once the the image is available, you can simply run the provided script which will open a browser to access the service
+Once the image is available, you can simply run the provided script which will open a browser to access the service
 at http://localhost:9092/api/hello .
 
 ```shell script
@@ -50,6 +43,8 @@ $ ./docker-run.sh
 time you start the container, you will be starting with a freshly created database.
 
 ## Using the Application
+TODO: Update this::
+
 Update the `DatabaseURI` setting in your `config.yaml` for the absolute path to the base project directory, 
 i.e. the path for the directory containing this README.
 
